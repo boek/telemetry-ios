@@ -1,4 +1,0 @@
-module Telemetry {
-    header "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/Telemetry-Swift.h"
-    requires objc
-}

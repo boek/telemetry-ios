@@ -4,6 +4,7 @@
 
 import XCTest
 import OHHTTPStubs
+import OHHTTPStubsSwift
 
 @testable import Telemetry
 
@@ -54,6 +55,7 @@ class TelemetryTests: XCTestCase {
 
     private func setupHttpErrorStub(expectedFilesUploaded: Int, statusCode: URLError.Code = URLError.Code.badServerResponse) {
         var countFilesUploaded = 0
+        
 
         stub(condition: isHost("incoming.telemetry.mozilla.org")) { data in
             countFilesUploaded += 1
@@ -64,7 +66,8 @@ class TelemetryTests: XCTestCase {
             }
 
             let err = NSError(domain: NSURLErrorDomain, code: statusCode.rawValue, userInfo: nil)
-            return OHHTTPStubsResponse(error: err)
+            
+            return HTTPStubsResponse(error: err)
         }
     }
 
@@ -89,7 +92,7 @@ class TelemetryTests: XCTestCase {
                 }
             }
 
-            return OHHTTPStubsResponse(jsonObject: ["foo": "bar"], statusCode: statusCode, headers: ["Content-Type": "application/json"])
+            return HTTPStubsResponse(jsonObject: ["foo": "bar"], statusCode: statusCode, headers: ["Content-Type": "application/json"])
         }
     }
 
