@@ -1,0 +1,283 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ScheduleUpload"
+- "TelemetryConfiguration"
+provides-nominal:
+- "9Telemetry14ScheduleUploadO"
+- "9Telemetry0A13ConfigurationC"
+provides-member:
+- ["9Telemetry14ScheduleUploadO", ""]
+- ["9Telemetry0A13ConfigurationC", ""]
+provides-dynamic-lookup:
+- "appName"
+- "appVersion"
+- "buildId"
+- "dataDirectory"
+- "defaultEventPingBuilderType"
+- "defaultSearchEngineProvider"
+- "isCollectionEnabled"
+- "isUploadEnabled"
+- "maximumAgeOfPingInDays"
+- "maximumNumberOfEventsPerPing"
+- "maximumNumberOfPingUploadsPerDay"
+- "maximumNumberOfPingsPerType"
+- "measureUserDefaultsSetting"
+- "measuredUserDefaults"
+- "minimumEventsForUpload"
+- "profileFilename"
+- "scheduleUpload"
+- "serverEndpoint"
+- "sessionConfigurationBackgroundIdentifier"
+- "updateChannel"
+- "userAgent"
+- "userDefaultsSuiteName"
+depends-top-level:
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "RawRepresentable"
+- "ScheduleUpload"
+- "String"
+- !private "StringLiteralType"
+- "TelemetryConfiguration"
+- "TelemetryDefaults"
+- !private "measureUserDefaultsSetting"
+- !private "measuredUserDefaults"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["So8NSBundleC", "infoDictionary"]
+- !private ["So8NSBundleC", "main"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "infoDictionary"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "infoDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "infoDictionary"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "append"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "subscript"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- ["SQ", "backgrounded"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "infoDictionary"]
+- !private ["SQ", "main"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- ["SH", "backgrounded"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "infoDictionary"]
+- !private ["SH", "main"]
+- !private ["SH", "subscript"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "infoDictionary"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "infoDictionary"]
+- !private ["So8NSObjectP", "main"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- ["SY", "RawValue"]
+- !private ["SY", "rawValue"]
+- ["9Telemetry14ScheduleUploadO", "=="]
+- ["9Telemetry14ScheduleUploadO", ""]
+- ["9Telemetry14ScheduleUploadO", "__derived_enum_equals"]
+- ["9Telemetry14ScheduleUploadO", "_rawHashValue"]
+- ["9Telemetry14ScheduleUploadO", "backgrounded"]
+- ["9Telemetry14ScheduleUploadO", "both"]
+- ["9Telemetry14ScheduleUploadO", "foregrounded"]
+- ["9Telemetry14ScheduleUploadO", "hash"]
+- ["9Telemetry14ScheduleUploadO", "hashValue"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "subscript"]
+- !private ["9Telemetry0A13ConfigurationC", "Bundle"]
+- ["9Telemetry0A13ConfigurationC", "RawRepresentable"]
+- ["9Telemetry0A13ConfigurationC", "ScheduleUpload"]
+- ["9Telemetry0A13ConfigurationC", "String"]
+- ["9Telemetry0A13ConfigurationC", "TelemetryDefaults"]
+- ["9Telemetry0A13ConfigurationC", "appName"]
+- ["9Telemetry0A13ConfigurationC", "appVersion"]
+- ["9Telemetry0A13ConfigurationC", "buildId"]
+- ["9Telemetry0A13ConfigurationC", "dataDirectory"]
+- ["9Telemetry0A13ConfigurationC", "defaultEventPingBuilderType"]
+- ["9Telemetry0A13ConfigurationC", "defaultSearchEngineProvider"]
+- ["9Telemetry0A13ConfigurationC", "deinit"]
+- ["9Telemetry0A13ConfigurationC", "init"]
+- ["9Telemetry0A13ConfigurationC", "isCollectionEnabled"]
+- ["9Telemetry0A13ConfigurationC", "isUploadEnabled"]
+- ["9Telemetry0A13ConfigurationC", "maximumAgeOfPingInDays"]
+- ["9Telemetry0A13ConfigurationC", "maximumNumberOfEventsPerPing"]
+- ["9Telemetry0A13ConfigurationC", "maximumNumberOfPingUploadsPerDay"]
+- ["9Telemetry0A13ConfigurationC", "maximumNumberOfPingsPerType"]
+- ["9Telemetry0A13ConfigurationC", "measureUserDefaultsSetting"]
+- ["9Telemetry0A13ConfigurationC", "measuredUserDefaults"]
+- ["9Telemetry0A13ConfigurationC", "minimumEventsForUpload"]
+- ["9Telemetry0A13ConfigurationC", "profileFilename"]
+- ["9Telemetry0A13ConfigurationC", "scheduleUpload"]
+- ["9Telemetry0A13ConfigurationC", "serverEndpoint"]
+- ["9Telemetry0A13ConfigurationC", "sessionConfigurationBackgroundIdentifier"]
+- ["9Telemetry0A13ConfigurationC", "updateChannel"]
+- ["9Telemetry0A13ConfigurationC", "userAgent"]
+- ["9Telemetry0A13ConfigurationC", "userDefaultsSuiteName"]
+- !private ["9Telemetry0A8DefaultsC", "AppName"]
+- !private ["9Telemetry0A8DefaultsC", "AppVersion"]
+- !private ["9Telemetry0A8DefaultsC", "BuildId"]
+- ["9Telemetry0A8DefaultsC", "DataDirectory"]
+- ["9Telemetry0A8DefaultsC", "DefaultSearchEngineProvider"]
+- ["9Telemetry0A8DefaultsC", "MaxAgeOfPingInDays"]
+- ["9Telemetry0A8DefaultsC", "MaxNumberOfEventsPerPing"]
+- ["9Telemetry0A8DefaultsC", "MaxNumberOfPingUploadsPerDay"]
+- ["9Telemetry0A8DefaultsC", "MaxNumberOfPingsPerType"]
+- ["9Telemetry0A8DefaultsC", "MinNumberOfEventsPerUpload"]
+- ["9Telemetry0A8DefaultsC", "ProfileFilename"]
+- ["9Telemetry0A8DefaultsC", "ServerEndpoint"]
+- ["9Telemetry0A8DefaultsC", "SessionConfigurationBackgroundIdentifier"]
+- ["9Telemetry0A8DefaultsC", "UpdateChannel"]
+- ["9Telemetry0A8DefaultsC", "UserAgent"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "infoDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "infoDictionary"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "9Telemetry14ScheduleUploadO"
+- !private "ST"
+- "9Telemetry0A13ConfigurationC"
+- "9Telemetry0A8DefaultsC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cc19989b81b7f1a2a053ff0a97053977"

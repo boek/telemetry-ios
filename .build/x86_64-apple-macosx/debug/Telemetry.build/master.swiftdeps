@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "cbb12108354541c9f1188d795affd0f5"
+build_time: [1601145110, 633122000]
+inputs:
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/AppEvents.swift": !dirty [1601071545, 296681299]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/Telemetry.swift": !dirty [1601071545, 296955500]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryClient.swift": !dirty [1601071545, 297082918]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryConfiguration.swift": !dirty [1601071545, 297212568]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryDefaults.swift": !dirty [1601071545, 297315140]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryError.swift": !dirty [1601071545, 297406221]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryEvent.swift": !dirty [1601071545, 297511739]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryMeasurements.swift": !dirty [1601071545, 297654398]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryPing.swift": !dirty [1601071545, 297770179]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryPingBuilder.swift": !dirty [1601071545, 297883211]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryScheduler.swift": !dirty [1601071545, 298005722]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryStorage.swift": !dirty [1601071545, 298117722]
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryUtils.swift": !dirty [1601071545, 298225755]

@@ -1,0 +1,409 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TelemetryScheduler"
+provides-nominal:
+- "9Telemetry0A9SchedulerC"
+provides-member:
+- ["9Telemetry0A9SchedulerC", ""]
+provides-dynamic-lookup:
+- "client"
+- "configuration"
+- "dailyUploadCount"
+- "hasReachedDailyUploadLimit"
+- "incrementDailyUploadCount"
+- "isTimestampFromToday"
+- "lastUploadTimestamp"
+- "scheduleUpload"
+- "storage"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+"
+- "/"
+- !private "=="
+- !private ">="
+- "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Calendar"
+- "CastingPrecedence"
+- !private "Date"
+- !private "Dictionary"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NSError"
+- !private "NSLocalizedDescriptionKey"
+- !private "NotificationCenter"
+- "String"
+- !private "StringLiteralType"
+- !private "Telemetry"
+- "TelemetryClient"
+- "TelemetryConfiguration"
+- "TelemetryError"
+- "TelemetryScheduler"
+- "TelemetryStorage"
+- !private "TelemetryUtils"
+- "TimeInterval"
+- "Void"
+- !private "client"
+- !private "configuration"
+- !private "dailyUploadCount"
+- !private "hasReachedDailyUploadLimit"
+- !private "isTimestampFromToday"
+- !private "lastUploadTimestamp"
+- !private "storage"
+- "uploadNextPing"
+- "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "contains"]
+- !private ["SK", ""]
+- !private ["SK", "contains"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "code"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "upload"]
+- !private ["10Foundation8CalendarV", "component"]
+- !private ["10Foundation8CalendarV", "current"]
+- !private ["Sl", ""]
+- !private ["Sl", "contains"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation8CalendarV9ComponentO", "day"]
+- !private ["10Foundation8CalendarV9ComponentO", "month"]
+- !private ["10Foundation8CalendarV9ComponentO", "year"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- !private ["s28CustomDebugStringConvertibleP", "component"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "upload"]
+- !private ["s17CustomReflectableP", "component"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- !private ["s23CustomStringConvertibleP", "component"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "upload"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", "component"]
+- !private ["Se", "contains"]
+- !private ["Se", "current"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "component"]
+- !private ["SE", "contains"]
+- !private ["SE", "current"]
+- !private ["SE", "init"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- !private ["SQ", "code"]
+- !private ["SQ", "component"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "current"]
+- !private ["SQ", "day"]
+- !private ["SQ", "default"]
+- !private ["SQ", "init"]
+- !private ["SQ", "month"]
+- !private ["SQ", "post"]
+- !private ["SQ", "upload"]
+- !private ["SQ", "year"]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "RawValue"]
+- !private ["SH", ""]
+- !private ["SH", "code"]
+- !private ["SH", "component"]
+- !private ["SH", "contains"]
+- !private ["SH", "current"]
+- !private ["SH", "day"]
+- !private ["SH", "default"]
+- !private ["SH", "init"]
+- !private ["SH", "month"]
+- !private ["SH", "post"]
+- !private ["SH", "upload"]
+- !private ["SH", "year"]
+- !private ["Si", "init"]
+- !private ["St", "next"]
+- !private ["St", "remove"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "code"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "code"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So7NSErrorC", "code"]
+- !private ["So7NSErrorC", "init"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "code"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "errorWithDomain"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectC", "postNotification"]
+- !private ["So8NSObjectC", "postNotificationName"]
+- !private ["So8NSObjectC", "upload"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "code"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "errorWithDomain"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So8NSObjectP", "postNotification"]
+- !private ["So8NSObjectP", "postNotificationName"]
+- !private ["So8NSObjectP", "upload"]
+- !private ["So14NSSecureCodingP", "code"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So18NSNotificationNamea", "RawValue"]
+- !private ["So18NSNotificationNamea", "init"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "contains"]
+- !private ["Sm", ""]
+- !private ["Sm", "contains"]
+- !private ["SY", "RawValue"]
+- !private ["SY", ""]
+- !private ["SY", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "component"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "contains"]
+- !private ["ST", "next"]
+- !private ["ST", "remove"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["9TelemetryAAC", "notificationReportError"]
+- !private ["9Telemetry0A6ClientC", "init"]
+- !private ["9Telemetry0A6ClientC", "upload"]
+- !private ["9Telemetry0A13ConfigurationC", "maximumNumberOfPingUploadsPerDay"]
+- !private ["9Telemetry0A5ErrorC", "CannotGenerateJSON"]
+- !private ["9Telemetry0A5ErrorC", "ErrorDomain"]
+- !private ["9Telemetry0A5ErrorC", "InvalidUploadURL"]
+- !private ["9Telemetry0A5ErrorC", "MaxDailyUploadReached"]
+- ["9Telemetry0A9SchedulerC", "Bool"]
+- !private ["9Telemetry0A9SchedulerC", "Calendar"]
+- !private ["9Telemetry0A9SchedulerC", "Date"]
+- ["9Telemetry0A9SchedulerC", "Int"]
+- !private ["9Telemetry0A9SchedulerC", "NSError"]
+- !private ["9Telemetry0A9SchedulerC", "NSLocalizedDescriptionKey"]
+- !private ["9Telemetry0A9SchedulerC", "NotificationCenter"]
+- ["9Telemetry0A9SchedulerC", "String"]
+- !private ["9Telemetry0A9SchedulerC", "Telemetry"]
+- ["9Telemetry0A9SchedulerC", "TelemetryClient"]
+- ["9Telemetry0A9SchedulerC", "TelemetryConfiguration"]
+- !private ["9Telemetry0A9SchedulerC", "TelemetryError"]
+- ["9Telemetry0A9SchedulerC", "TelemetryStorage"]
+- !private ["9Telemetry0A9SchedulerC", "TelemetryUtils"]
+- ["9Telemetry0A9SchedulerC", "TimeInterval"]
+- ["9Telemetry0A9SchedulerC", "Void"]
+- !private ["9Telemetry0A9SchedulerC", "client"]
+- !private ["9Telemetry0A9SchedulerC", "configuration"]
+- !private ["9Telemetry0A9SchedulerC", "dailyUploadCount"]
+- ["9Telemetry0A9SchedulerC", "deinit"]
+- !private ["9Telemetry0A9SchedulerC", "hasReachedDailyUploadLimit"]
+- !private ["9Telemetry0A9SchedulerC", "incrementDailyUploadCount"]
+- ["9Telemetry0A9SchedulerC", "init"]
+- !private ["9Telemetry0A9SchedulerC", "isTimestampFromToday"]
+- !private ["9Telemetry0A9SchedulerC", "lastUploadTimestamp"]
+- ["9Telemetry0A9SchedulerC", "scheduleUpload"]
+- !private ["9Telemetry0A9SchedulerC", "storage"]
+- !private ["9Telemetry0A9SchedulerC", "uploadNextPing"]
+- !private ["9Telemetry0A7StorageC", "get"]
+- !private ["9Telemetry0A7StorageC", "sequence"]
+- !private ["9Telemetry0A7StorageC", "set"]
+- !private ["9Telemetry0A15StorageSequenceC", ""]
+- !private ["9Telemetry0A15StorageSequenceC", "next"]
+- !private ["9Telemetry0A15StorageSequenceC", "remove"]
+- !private ["9Telemetry0A5UtilsC", "timestamp"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "RawValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "upload"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "code"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "post"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "upload"]
+- !private ["s21_ObjectiveCBridgeableP", "RawValue"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "component"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "RawValue"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "St"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So18NSNotificationNamea"
+- !private "So20NSNotificationCenterC"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "9TelemetryAAC"
+- !private "9Telemetry0A6ClientC"
+- !private "9Telemetry0A13ConfigurationC"
+- !private "9Telemetry0A5ErrorC"
+- "9Telemetry0A9SchedulerC"
+- !private "9Telemetry0A7StorageC"
+- !private "9Telemetry0A15StorageSequenceC"
+- !private "9Telemetry0A5UtilsC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "09d29a8c13861387af08c23a11d5dbe5"

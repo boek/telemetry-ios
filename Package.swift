@@ -21,15 +21,38 @@ let package = Package(
         .target(
             name: "Internal",
             dependencies: [],
-            path: "Telemetry",
-            sources: ["Telemetry/Telemetry.h"]),
+            sources: [
+                "Telemetry.h",
+                "Telemetry.m",
+            ],
+            publicHeadersPath: "."),
         .target(
             name: "Telemetry",
             dependencies: ["Internal"],
-            path: "Telemetry"),
+            path: "Telemetry",
+            exclude: [
+                "Info.plist"
+            ]),
         .testTarget(
             name: "TelemetryTetsts",
             dependencies: ["Telemetry"],
-            path: "TelemetryTests"),
+            path: "TelemetryTests",
+            exclude: [
+                "Info.plist"
+            ]),
     ]
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+

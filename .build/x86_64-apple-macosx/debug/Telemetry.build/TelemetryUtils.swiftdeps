@@ -1,0 +1,682 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "report"
+- "TelemetryUtils"
+provides-nominal:
+- "9Telemetry0A5UtilsC"
+provides-member:
+- ["s6UInt64V", ""]
+- ["9Telemetry0A5UtilsC", ""]
+- ["s6UInt64V", "safeConvert"]
+- ["s6UInt64V", "safeConvert"]
+- ["9Telemetry0A5UtilsC", "mockableOffset"]
+- ["9Telemetry0A5UtilsC", "timestamp"]
+- ["9Telemetry0A5UtilsC", "dateFromTimestamp"]
+provides-dynamic-lookup:
+- "asString"
+- "dateFromTimestamp"
+- "daysOld"
+- "isUnitTesting"
+- "mockableOffset"
+- "timestamp"
+- "truncate"
+depends-top-level:
+- !private "!"
+- "!="
+- !private "+"
+- !private "<"
+- "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BinaryInteger"
+- "Bool"
+- !private "Calendar"
+- "CastingPrecedence"
+- "Date"
+- !private "Dictionary"
+- "Double"
+- "Error"
+- !private "FloatLiteralType"
+- "FloatingPoint"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSError"
+- !private "NSURLErrorCancelled"
+- !private "NSURLErrorCannotConnectToHost"
+- !private "NSURLErrorCannotFindHost"
+- !private "NSURLErrorClientCertificateRejected"
+- !private "NSURLErrorClientCertificateRequired"
+- !private "NSURLErrorDataNotAllowed"
+- !private "NSURLErrorInternationalRoamingOff"
+- !private "NSURLErrorNetworkConnectionLost"
+- !private "NSURLErrorNotConnectedToInternet"
+- !private "NSURLErrorSecureConnectionFailed"
+- !private "NSURLErrorServerCertificateHasBadDate"
+- !private "NSURLErrorServerCertificateHasUnknownRoot"
+- !private "NSURLErrorServerCertificateNotYetValid"
+- !private "NSURLErrorServerCertificateUntrusted"
+- !private "NSURLErrorTimedOut"
+- !private "NotificationCenter"
+- "ProcessInfo"
+- "String"
+- "StringLiteralType"
+- !private "Swift"
+- !private "Telemetry"
+- "TelemetryUtils"
+- "TernaryPrecedence"
+- "TimeInterval"
+- "UInt64"
+- !private "isUnitTesting"
+- !private "mockableOffset"
+- !private "print"
+- "report"
+- "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "IntegerLiteralType"]
+- !private ["s18AdditiveArithmeticP", "Swift"]
+- !private ["s18AdditiveArithmeticP", "UInt64"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "contains"]
+- ["SK", ""]
+- ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "lowercased"]
+- !private ["SK", "prefix"]
+- !private ["Sz", "IntegerLiteralType"]
+- !private ["Sz", "Swift"]
+- !private ["Sz", "UInt64"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "Swift"]
+- !private ["s7CVarArgP", "UInt64"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "code"]
+- ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "debugDescription"]
+- !private ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "environment"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "prefix"]
+- ["s7CVarArgP", "processInfo"]
+- ["s7CVarArgP", "subscript"]
+- !private ["10Foundation8CalendarV", "current"]
+- !private ["10Foundation8CalendarV", "dateComponents"]
+- ["Sl", ""]
+- ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "prefix"]
+- ["Sl", "subscript"]
+- !private ["SL", "IntegerLiteralType"]
+- !private ["SL", "Swift"]
+- !private ["SL", "UInt64"]
+- ["SL", ""]
+- ["SL", "contains"]
+- !private ["SL", "count"]
+- !private ["SL", "init"]
+- !private ["SL", "lowercased"]
+- !private ["SL", "prefix"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["10Foundation8CalendarV9ComponentO", "day"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "dateComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "day"]
+- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "environment"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- ["s28CustomDebugStringConvertibleP", "processInfo"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "Swift"]
+- !private ["s17CustomReflectableP", "UInt64"]
+- ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "dateComponents"]
+- !private ["s17CustomReflectableP", "day"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "prefix"]
+- ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "Element"]
+- !private ["s23CustomStringConvertibleP", "IntegerLiteralType"]
+- !private ["s23CustomStringConvertibleP", "Swift"]
+- !private ["s23CustomStringConvertibleP", "UInt64"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "dateComponents"]
+- !private ["s23CustomStringConvertibleP", "day"]
+- !private ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "environment"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- ["s23CustomStringConvertibleP", "processInfo"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["10Foundation14DateComponentsV", "day"]
+- !private ["Se", "Swift"]
+- !private ["Se", "UInt64"]
+- ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "current"]
+- !private ["Se", "dateComponents"]
+- !private ["Se", "day"]
+- !private ["Se", "init"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "prefix"]
+- ["Se", "subscript"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "subscript"]
+- !private ["SE", "Swift"]
+- !private ["SE", "UInt64"]
+- ["SE", "contains"]
+- !private ["SE", "count"]
+- !private ["SE", "current"]
+- !private ["SE", "dateComponents"]
+- !private ["SE", "day"]
+- !private ["SE", "init"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "prefix"]
+- ["SE", "subscript"]
+- !private ["SE", "timeIntervalSince1970"]
+- !private ["SQ", "IntegerLiteralType"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", "Swift"]
+- !private ["SQ", "UInt64"]
+- ["SQ", ""]
+- !private ["SQ", "code"]
+- ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "current"]
+- !private ["SQ", "dateComponents"]
+- !private ["SQ", "day"]
+- !private ["SQ", "debugDescription"]
+- !private ["SQ", "default"]
+- ["SQ", "environment"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "post"]
+- !private ["SQ", "prefix"]
+- ["SQ", "processInfo"]
+- ["SQ", "subscript"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "debugDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Swift"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UInt64"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "contains"]
+- ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "contains"]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s32ExpressibleByStringInterpolationP", "prefix"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "prefix"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "prefix"]
+- !private ["s17FixedWidthIntegerP", "Swift"]
+- !private ["s17FixedWidthIntegerP", "UInt64"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "IntegerLiteralType"]
+- !private ["SH", "RawValue"]
+- !private ["SH", "Swift"]
+- !private ["SH", "UInt64"]
+- ["SH", ""]
+- !private ["SH", "code"]
+- ["SH", "contains"]
+- !private ["SH", "count"]
+- !private ["SH", "current"]
+- !private ["SH", "dateComponents"]
+- !private ["SH", "day"]
+- !private ["SH", "debugDescription"]
+- !private ["SH", "default"]
+- ["SH", "environment"]
+- !private ["SH", "init"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "post"]
+- !private ["SH", "prefix"]
+- ["SH", "processInfo"]
+- ["SH", "subscript"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["s25LosslessStringConvertibleP", "Element"]
+- !private ["s25LosslessStringConvertibleP", "Swift"]
+- !private ["s25LosslessStringConvertibleP", "UInt64"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s25LosslessStringConvertibleP", "prefix"]
+- ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["s10MirrorPathP", "prefix"]
+- !private ["SM", ""]
+- !private ["SM", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "code"]
+- ["So8NSCodingP", "contains"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "debugDescription"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So8NSCodingP", "prefix"]
+- !private ["So9NSCopyingP", "code"]
+- ["So9NSCopyingP", "contains"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "debugDescription"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So9NSCopyingP", "prefix"]
+- !private ["So7NSErrorC", "code"]
+- !private ["So7NSErrorC", "debugDescription"]
+- ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "prefix"]
+- ["So21NSItemProviderWritingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "prefix"]
+- ["So16NSMutableCopyingP", "contains"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "prefix"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "code"]
+- ["So8NSObjectC", "contains"]
+- ["So8NSObjectC", "containsString"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "debugDescription"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "environment"]
+- !private ["So8NSObjectC", "lowercaseStringWithLocale"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectC", "postNotification"]
+- !private ["So8NSObjectC", "postNotificationName"]
+- !private ["So8NSObjectC", "prefix"]
+- ["So8NSObjectC", "processInfo"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "code"]
+- ["So8NSObjectP", "contains"]
+- ["So8NSObjectP", "containsString"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "debugDescription"]
+- !private ["So8NSObjectP", "default"]
+- ["So8NSObjectP", "environment"]
+- !private ["So8NSObjectP", "lowercaseStringWithLocale"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So8NSObjectP", "postNotification"]
+- !private ["So8NSObjectP", "postNotificationName"]
+- !private ["So8NSObjectP", "prefix"]
+- ["So8NSObjectP", "processInfo"]
+- !private ["So14NSSecureCodingP", "code"]
+- ["So14NSSecureCodingP", "contains"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "debugDescription"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "prefix"]
+- ["So8NSStringC", "contains"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["So8NSStringC", "prefix"]
+- !private ["So18NSNotificationNamea", "RawValue"]
+- !private ["So18NSNotificationNamea", "init"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- !private ["Sj", "IntegerLiteralType"]
+- !private ["Sj", "Swift"]
+- !private ["Sj", "UInt64"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- ["Sq", "contains"]
+- ["So13NSProcessInfoC", "environment"]
+- ["So13NSProcessInfoC", "processInfo"]
+- !private ["Sk", ""]
+- !private ["Sk", "contains"]
+- !private ["Sm", ""]
+- ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "prefix"]
+- !private ["SY", "RawValue"]
+- !private ["SY", ""]
+- !private ["SY", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["10Foundation20ReferenceConvertibleP", "dateComponents"]
+- !private ["10Foundation20ReferenceConvertibleP", "day"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["s10SIMDScalarP", "Swift"]
+- !private ["s10SIMDScalarP", "UInt64"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- ["ST", ""]
+- ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "prefix"]
+- ["ST", "subscript"]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", "IntegerLiteralType"]
+- !private ["Sx", "Swift"]
+- !private ["Sx", "UInt64"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- ["SS", "contains"]
+- !private ["SS", "count"]
+- !private ["SS", "init"]
+- !private ["SS", "lowercased"]
+- !private ["SS", "prefix"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["Sy", "contains"]
+- !private ["Sy", "count"]
+- !private ["Sy", "init"]
+- !private ["Sy", "lowercased"]
+- !private ["Sy", "prefix"]
+- !private ["9TelemetryAAC", "notificationReportError"]
+- !private ["9Telemetry0A5UtilsC", "Bool"]
+- !private ["9Telemetry0A5UtilsC", "Calendar"]
+- ["9Telemetry0A5UtilsC", "Date"]
+- ["9Telemetry0A5UtilsC", "Int"]
+- ["9Telemetry0A5UtilsC", "ProcessInfo"]
+- ["9Telemetry0A5UtilsC", "String"]
+- !private ["9Telemetry0A5UtilsC", "TelemetryUtils"]
+- ["9Telemetry0A5UtilsC", "TimeInterval"]
+- ["9Telemetry0A5UtilsC", ""]
+- ["9Telemetry0A5UtilsC", "asString"]
+- ["9Telemetry0A5UtilsC", "dateFromTimestamp"]
+- ["9Telemetry0A5UtilsC", "daysOld"]
+- ["9Telemetry0A5UtilsC", "deinit"]
+- ["9Telemetry0A5UtilsC", "init"]
+- ["9Telemetry0A5UtilsC", "isUnitTesting"]
+- ["9Telemetry0A5UtilsC", "mockableOffset"]
+- !private ["9Telemetry0A5UtilsC", "print"]
+- ["9Telemetry0A5UtilsC", "timestamp"]
+- ["9Telemetry0A5UtilsC", "truncate"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s16TextOutputStreamP", "prefix"]
+- ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "prefix"]
+- ["s6UInt64V", "BinaryInteger"]
+- !private ["s6UInt64V", "Double"]
+- ["s6UInt64V", "FloatingPoint"]
+- !private ["s6UInt64V", "Swift"]
+- ["s6UInt64V", "UInt64"]
+- ["s6UInt64V", ""]
+- !private ["s6UInt64V", "init"]
+- ["s6UInt64V", "safeConvert"]
+- !private ["SU", "Swift"]
+- !private ["SU", "UInt64"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s15_CVarArgAlignedP", "Swift"]
+- !private ["s15_CVarArgAlignedP", "UInt64"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Swift"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "UInt64"]
+- ["s30_CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "prefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Swift"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UInt64"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "prefix"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "prefix"]
+- ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "prefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "RawValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Swift"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UInt64"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "prefix"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "environment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prefix"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "code"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contains"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "environment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "post"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "prefix"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "processInfo"]
+- !private ["s21_ObjectiveCBridgeableP", "RawValue"]
+- !private ["s21_ObjectiveCBridgeableP", "Swift"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt64"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "dateComponents"]
+- !private ["s21_ObjectiveCBridgeableP", "day"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- !private ["s20_SwiftNewtypeWrapperP", "RawValue"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- "SK"
+- !private "Sz"
+- "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- "Sl"
+- "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- !private "10Foundation14DateComponentsV"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "So18NSNotificationNamea"
+- !private "So20NSNotificationCenterC"
+- !private "Sj"
+- "Sq"
+- "So13NSProcessInfoC"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "SS"
+- !private "s27StringInterpolationProtocolP"
+- "Sy"
+- !private "9TelemetryAAC"
+- "9Telemetry0A5UtilsC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s6UInt64V"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0a849ca7b0f1197a635ad3be79131fab"

@@ -1,0 +1,83 @@
+{
+  "": {
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/master.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/AppEvents.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/AppEvents.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/AppEvents.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/AppEvents~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/AppEvents.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/Telemetry.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/Telemetry.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/Telemetry.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/Telemetry~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/Telemetry.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryClient.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryClient.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryClient.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryClient.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryConfiguration.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryConfiguration.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryConfiguration.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryConfiguration.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryDefaults.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryDefaults.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryDefaults.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryDefaults~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryDefaults.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryError.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryError.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryError.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryError~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryError.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryEvent.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryEvent.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryEvent.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryEvent.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryMeasurements.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryMeasurements.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryMeasurements.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryMeasurements~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryMeasurements.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryPing.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryPing.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryPing.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryPing~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryPing.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryPingBuilder.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryPingBuilder.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryPingBuilder.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryPingBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryPingBuilder.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryScheduler.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryScheduler.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryScheduler.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryScheduler~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryScheduler.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryStorage.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryStorage.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryStorage.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryStorage~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryStorage.swiftdeps"
+  },
+  "/Users/boek/git/mozilla-mobile/telemetry-ios/Telemetry/TelemetryUtils.swift": {
+    "dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryUtils.d",
+    "object": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryUtils.swift.o",
+    "swiftmodule": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/boek/git/mozilla-mobile/telemetry-ios/.build/x86_64-apple-macosx/debug/Telemetry.build/TelemetryUtils.swiftdeps"
+  }
+}

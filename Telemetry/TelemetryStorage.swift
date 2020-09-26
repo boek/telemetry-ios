@@ -3,6 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import Foundation
+import Internal
 
 class TelemetryStorageSequence : Sequence, IteratorProtocol {
     typealias Element = TelemetryPing
@@ -263,6 +264,7 @@ extension TelemetryStorage {
             fileHandle.seekToEndOfFile()
 
             // NSFileHandle.write exceptions do not use Swift throw, requires obj-c exception handler (or the exception bubbles up and crashes the app)
+
             let exception = withObjCExceptionHandling {
                 if !isFirstRecord {
                     fileHandle.write(eventSeparator)
